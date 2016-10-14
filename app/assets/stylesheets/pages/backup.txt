@@ -1,0 +1,24 @@
+background-image: image-url("servicos_imagens/servicos_organizacao.png");
+        transition: 0.5s;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 310px;
+        width: 400px;
+        margin: 10px;
+        display: inline-block;
+
+
+        h3{
+            color: transparent;
+        }
+
+        p {
+            color: transparent;
+        }
+
+        .button{
+            display: none;
+        }
+
+
+        &:hover{

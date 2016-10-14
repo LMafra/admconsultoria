@@ -1,0 +1,53 @@
+.fale_conosco{
+	background-color: #009BA4;
+	h1{
+		color: #FFF;
+		font-family: 'FlexoW01-Medium';
+		font-size: 47px;
+	}
+	p{
+		color:#6D6D6D;
+		font-family: 'Source Sans Pro';
+		font-size: 24px;
+	}
+
+	.contato{
+		color: #FFF;
+  	float: left;
+  	width: 50%;
+
+  		.formulario{
+		    input{
+      		border-radius: 5px;
+      		font-size: 20px;
+      		margin-bottom: 2%;
+      		margin-top: 2%;
+      		width: 100%;
+    		}
+    	 textarea {
+    		  border-radius: 5px;
+      		font-size: 22px;
+      		margin-bottom: 2%;
+      		margin-top: 2%;
+      		width: 100%;
+    		  resize: none;
+    		  height: 195px;
+			   }
+      }
+      .envio{
+        input{
+          background-color: #06E195;
+          border: 0;
+          border-radius: 5px;
+          color: white;
+          cursor: pointer;
+          display: block;
+          font-size: 20px;
+          margin: 0 auto;
+          width: 100%;
+      
+        }
+      }
+
+    }
+}

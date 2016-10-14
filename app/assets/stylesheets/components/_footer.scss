@@ -1,0 +1,24 @@
+.page-footer{
+	background-color: #00444F;
+	height: 100px;
+
+	p{
+		color:  #FFF;
+    display: inline-block;
+    float: right;
+    font-size: 15px;
+    font-family: 'FlexoW01-Medium';
+    width: 28%;
+	}
+
+	.logo-footer{
+		background-image: image-url("AD&M_footer_logo-13.svg");
+  		background-repeat: no-repeat;
+  		padding: 35px;
+  		padding-right: 70px;
+  		margin-right: 30px;
+      margin-top: 30px;
+      position: absolute;
+	}
+
+}

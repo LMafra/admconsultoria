@@ -1,0 +1,77 @@
+.menu {
+  position: absolute;
+  background-color: #FFFFFF;
+  height: 54px;
+  width: 100%;
+
+  @media(max-width: 520px) {
+    display: none;
+  }
+  .menu-item {
+    color:  #00444F;
+    text-decoration: none;
+    text-align: center;
+    height: 100%;
+    padding: 23px 25px;
+    display: block;
+    float: right;
+    font-size: 15px;
+    font-family: 'FlexoW01-Medium'
+
+  }
+}
+
+.nav--fixed {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+
+.menu-mobile {
+  background-color:  #FFFFFF;
+  height: 50px;
+  width: 100%;
+  overflow-y: hidden;
+  transition: height 0.5s cubic-bezier(.96,.11,.37,.6);
+  .menu-title {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 11px;
+    font-size: 21px;
+    color: #FFFFFF;
+  }
+
+  .menu-item {
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    height: calc(100%/5 - 50px);
+    padding-top: 50px;
+  }
+
+  &.menu-mobile--active {
+    height: 100vh;
+  }
+
+  @media(min-width: 520px) {
+    display: none;
+  }
+}  
+
+.brand-logo {
+  background-image: image-url("logo_menu.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: 70px 60px;
+  padding: 35px;
+}
+
+
+.nav--fixed {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}

@@ -1,0 +1,21 @@
+.banner{
+	background-image: image-url("abertura_site.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: calc(100vh);
+	background-position: center;
+
+	@media(max-width: 960px) {
+		height: calc(57vw);
+		background-size: 100%;
+	}
+}
+
+.seta_abaixo{
+	background-image: image-url("seta_abertura.svg");
+	background-size: 132px;
+	background-repeat: no-repeat;
+	height: 50px;
+	background-position: center bottom;
+
+}
