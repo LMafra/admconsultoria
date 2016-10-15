@@ -15,3 +15,4 @@
 //= require turbolinks
 //= require_tree
 //= require components/menu
+//= require components/carousel

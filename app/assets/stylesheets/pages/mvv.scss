@@ -103,6 +103,25 @@
 			font-family: 'FlexoW01-Medium';
 			font-size: 30px;
 			margin: 20px;
+			margin-left: 129px;
+		}
+
+		#scrolling { /* Carousel Frame */
+    		overflow: hidden;
+		}
+
+		ul {
+    		margin: 0;
+    		padding: 0;
+    		list-style-type: none;
+    		-webkit-transform-style: preserve-3d;
+    		-ms-transform-style: preserve-3d;
+    		transform-style: preserve-3d;
+    		margin-left: -200px;	
+		}
+
+		li {
+    		float: left;
 		}
 
 			.principio1{
@@ -181,6 +200,7 @@
 			margin-top: 24px;
 			margin-bottom: 29px;
 			margin-left: 64px;
+			margin-right: 100px;
 		}
 
 	}

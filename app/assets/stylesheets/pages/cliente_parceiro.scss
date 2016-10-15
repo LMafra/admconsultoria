@@ -7,5 +7,33 @@
 		font-size: 47px;
 	}
 
+	.exemplo1{
+		background-image: image-url("exemplo1.jpeg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 150px;
+		background-position: center;
+		display: block;
+		margin: 3px;
+	}
+	.exemplo2{
+		background-image: image-url("exemplo2.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 150px;
+		background-position: center;
+		display: block;
+		margin: 3px;
+	}
+	.exemplo3{
+		background-image: image-url("exemplo3.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 150px;
+		background-position: center;
+		display: block;
+		margin: 3px;
+	}
+
 	
 }
