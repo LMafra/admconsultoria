@@ -6,4 +6,5 @@ Rails.application.routes.draw do
 
 	get 'contact', to: 'messages#new', as: 'contact'
 	post 'contact', to: 'messages#create'
+	get 'pages/solucoes' => 'high_voltage/pages#show', id: 'solucoes'
 end

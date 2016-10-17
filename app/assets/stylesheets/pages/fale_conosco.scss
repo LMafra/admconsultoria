@@ -13,8 +13,9 @@
 
 	.contato{
 		color: #FFF;
-  	float: left;
   	width: 50%;
+    display: inline-block;
+    border-style: none;
 
   		.formulario{
 		    input{
@@ -23,10 +24,11 @@
       		margin-bottom: 2%;
       		margin-top: 2%;
       		width: 100%;
+          padding: 10px;
     		}
     	 textarea {
     		  border-radius: 5px;
-      		font-size: 22px;
+      		font-size: 20px;
       		margin-bottom: 2%;
       		margin-top: 2%;
       		width: 100%;
@@ -45,9 +47,20 @@
           font-size: 20px;
           margin: 0 auto;
           width: 100%;
+          padding: 20px;
       
         }
       }
 
     }
+  .map-section {
+  width: 50%;
+  clear: both;
+  line-height: 1;
+}
+.map-section iframe {
+  width: 100%;
+  height: 500px;
+  border: 0 none;
+}
 }

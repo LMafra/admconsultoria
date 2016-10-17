@@ -14,5 +14,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree
+//= require underscore
 //= require components/menu
 //= require components/carousel
+//= require gmaps/google
