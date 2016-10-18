@@ -147,8 +147,6 @@
 		<p>Agende seu atendimento com nossos Analistas de Negócios,
 		para podermos oferecer-lhe o melhor das nossas soluções.</p>
 
-		<div id="map-section" class="map-section">
-		</div>
 		<%= form_for Message.new, url: contact_path do |message_form| %>
   		<div class="contato">
     		<div class="formulario">
@@ -171,9 +169,10 @@
     		<div class="envio">
       			<%= message_form.submit "Enviar" %>
     		</div>
-  		</div>
 		<% end %>
-	</div>
+  		</div>
+  		<div id="map">
+  		</div>
 	</div>
 </section>
 
