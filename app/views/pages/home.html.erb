@@ -146,25 +146,6 @@
 		<h1>FALE CONOSCO</h1>
 		<p>Agende seu atendimento com nossos Analistas de Negócios,
 		para podermos oferecer-lhe o melhor das nossas soluções.</p>
-
-		<%= form_for Message.new, url: contact_path do |message_form| %>
-  		<div class="contato">
-    		<div class="formulario">
-      			<%= message_form.text_field :name, placeholder: "Nome" %>
-   			</div>
-    		<div class="formulario">
-     		 	<%= message_form.email_field :email, placeholder: "Email"%>
-    		</div>
-    		<div class="formulario">
-      			<%= message_form.text_area :content, placeholder: "Como podemos ajudar?"%>
-    		</div>
-  		</div>
-  		<div class="contato">
-    		<div class="envio">
-      			<%= message_form.submit "Enviar" %>
-    		</div>
-		<% end %>
-  		</div>
   		<div id="map">
   		</div>
 	</div>

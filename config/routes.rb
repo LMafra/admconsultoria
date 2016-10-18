@@ -3,8 +3,5 @@ Rails.application.routes.draw do
   	HighVoltage.configure do |config|
   		config.home_page = 'home'
 	end
-
-	get 'contact', to: 'messages#new', as: 'contact'
-	post 'contact', to: 'messages#create'
 	get 'pages/solucoes' => 'high_voltage/pages#show', id: 'solucoes'
 end
