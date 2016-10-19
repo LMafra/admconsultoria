@@ -1,25 +1,47 @@
 .page-footer{
 	background-color: #00444F;
-	height: 100px;
+	height: 150px;
 
 	p{
-		color:  #6D6D6D;
+		color:  #FFF;
     display: inline-block;
     float: right;
     font-size: 15px;
     font-family: 'FlexoW01-Medium';
-    width: 28%;
-    margin-right: 80px;
+    width: 29%;
+    line-height: 27px;
+    margin-right: 55px;
 	}
 
 	.logo-footer{
 		background-image: image-url("AD&M_footer_logo-13.svg");
-  		background-repeat: no-repeat;
-  		padding: 35px;
-  		padding-right: 70px;
-  		margin-right: 30px;
-      margin-top: 30px;
-      position: absolute;
+  	background-repeat: no-repeat;
+  	padding: 50px;
+  	margin-right: 30px;
+    margin-top: 50px;
+    position: absolute;
 	}
+
+  .medium{
+    background-image: image-url("AD&M_icones_rs/AD&M_M.svg");
+    background-repeat: no-repeat;
+    padding: 15px;
+    margin-top: 50px;
+    float: right;
+  }
+  .facebook{
+    background-image: image-url("AD&M_icones_rs/AD&M_facebook.svg");
+    background-repeat: no-repeat;
+    padding: 15px;
+    margin-top: 50px;
+    float: right;
+  }
+  .twitter{
+    background-image: image-url("AD&M_icones_rs/AD&M_twitter.svg");
+    background-repeat: no-repeat;
+    padding: 15px;
+    margin-top: 50px;
+    float: right;
+  }
 
 }

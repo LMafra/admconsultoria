@@ -15,7 +15,7 @@
 
     .financas{
 
-        background-image: image-url("servicos_imagens/servicos_financas.png");
+        background-image: image-url("AD&M_servicos_imagens/AD&M_servicos-04.png");
         background-size: 100%;
         background-repeat: no-repeat;
         height: 240px;
@@ -24,13 +24,16 @@
         margin-left: 50px;
         display: inline-table;
         opacity: 1;
-        transition: .3s ease-in-out;
+        transition: .5s ease-in-out;
+        position: relative;
 
         h3{
+            font-size: 35px;
             color: transparent;
         }
 
         p{
+            font-size: 15px;
             color: transparent;
         }
 
@@ -57,23 +60,26 @@
     }
 	.marketing{
 
-        background-image: image-url("servicos_imagens/servicos_marketing.png");
+        background-image: image-url("AD&M_servicos_imagens/AD&M_servicos-05.png");
         background-size: 100%;
         background-repeat: no-repeat;
+        opacity: 1;
         height: 240px;
         width: 400px;
         margin: 10px;
         display: inline-table;
-        opacity: 1;
-        transition: .3s ease-in-out;
+        position: relative;
+        transition: .5s ease-in-out;
 
 
 
         h3{
+            font-size: 35px;
             color: transparent;
         }
 
         p{
+            font-size: 15px;
             color: transparent;
         }
 
@@ -98,7 +104,7 @@
 	}
 	.gp{
 		
-        background-image: image-url("servicos_imagens/servicos_gestao_pessoas.png");
+        background-image: image-url("AD&M_servicos_imagens/AD&M_servicos-03.png");
         background-size: 100%;
         background-repeat: no-repeat;
         height: 240px;
@@ -107,14 +113,16 @@
         margin-left: 50px;
         display: inline-table;
         opacity: 1;
-        transition: .3s ease-in-out;
+        transition: .5s ease-in-out;
 
 
         h3{
+            font-size: 35px;
             color: transparent;
         }
 
         p{
+            font-size: 15px;
             color: transparent;
         }
 
@@ -139,7 +147,7 @@
 	}
 	.oep{
 
-        background-image: image-url("servicos_imagens/servicos_organizacao.png");
+        background-image: image-url("AD&M_servicos_imagens/AD&M_servicos-02.png");
         background-size: 100%;
         background-repeat: no-repeat;
         height: 240px;
@@ -147,14 +155,16 @@
         margin: 10px;
         display: inline-table;
         opacity: 1;
-        transition: .3s ease-in-out;
+        transition: .5s ease-in-out;
 
 
         h3{
+            font-size: 35px;
             color: transparent;
         }
 
         p{
+            font-size: 15px;
             color: transparent;
         }
 
