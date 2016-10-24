@@ -7,7 +7,7 @@
 		font-size: 47px;
 	}
 	p{
-		color:#6D6D6D;
+		color:#FFF;
 		font-family: 'Source Sans Pro';
 		font-size: 24px;
 	}
@@ -26,6 +26,12 @@
         opacity: 1;
         transition: .5s ease-in-out;
         position: relative;
+
+         @media(max-width: 1001px){
+                margin-left: 50px;
+                width: 600px;
+                height: 400px;
+            }
 
         h3{
             font-size: 35px;
@@ -56,6 +62,8 @@
                     text-align: left;
                 }
         }
+
+        
                 
     }
 	.marketing{
@@ -70,6 +78,11 @@
         display: inline-table;
         position: relative;
         transition: .5s ease-in-out;
+         @media(max-width: 1001px){
+                margin-left: 50px;
+                width: 600px;
+                height: 400px;
+            }
 
 
 
@@ -114,6 +127,11 @@
         display: inline-table;
         opacity: 1;
         transition: .5s ease-in-out;
+        @media(max-width: 1001px){
+                margin-left: 50px;
+                width: 600px;
+                height: 400px;
+            }
 
 
         h3{
@@ -156,6 +174,11 @@
         display: inline-table;
         opacity: 1;
         transition: .5s ease-in-out;
+         @media(max-width: 1001px){
+                margin-left: 50px;
+                width: 600px;
+                height: 400px;
+            }
 
 
         h3{

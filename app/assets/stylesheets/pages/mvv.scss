@@ -49,6 +49,7 @@
 					float: right;
 					margin-left: 129px;
 					margin-top: -50px;
+
 				}
 	
 		}
@@ -61,6 +62,7 @@
   				margin-left: -38px;
   				margin-top: 20px;
   				float: left;
+  			
 
 			}
 	
@@ -118,6 +120,10 @@
     		-ms-transform-style: preserve-3d;
     		transform-style: preserve-3d;
     		margin-left: -200px;	
+
+    		@media(max-width: 1001px){
+    			margin-left: -150px;
+    		}
 		}
 
 		li {
@@ -202,6 +208,10 @@
 			margin-bottom: 29px;
 			margin-left: 64px;
 			margin-right: 100px;
+
+			@media(max-width: 1001px){
+    			margin-right: 30px;
+    		}
 		}
 
 	}

@@ -5,8 +5,8 @@
 	height: calc(100vh);
 	background-position: center;
 
-	@media(max-width: 960px) {
-		height: calc(57vw);
+	@media screen and(max-width: 1001px) {
+		height: calc(50vw);
 		background-size: 100%;
 	}
 }
