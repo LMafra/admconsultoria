@@ -1,14 +1,14 @@
 <nav class="menu">
 	<div class="wrapper">
-		<%= link_to "", page_path(id: "home"), class: "brand-logo" %>
+		<div class="brand-logo"></div>
 		<li>
 			<a data-anchor="blog" href="https://medium.com/@ADMconsultoria" class="menu-item">Blog</a>
 		</li>
 		<li>
-			<a data-anchor="contato" href="" class="menu-item">Fale Conosco</a>
+			<a href="#contato" class="menu-item">Fale Conosco</a>
 		</li>
 		<li>
-			<a data-anchor="solucoes" href="" class="menu-item">Serviços</a>
+			<a href="#solucoes" class="menu-item">Soluções</a>
 		</li>
 	</div>
 </nav>
@@ -50,40 +50,38 @@
 
 		<div class="principios">
 			<h3>PRINCIPIOS</h2>
-			<div id="scrolling">
+			<div class="gallery js-flickity" data-flickity='{ "cellAlign": "left" }'>
 				
-			<ul class="ul-principios">
-				<li>
-					<div class="principio1"></div>
+				<div>
+          <div class="principio1"></div>
 					<p class="p_principio1">Equilibramos o espírito jovem e inovador com condutas profissionais e maduras.</p>
 					<div class="principio2"></div>
 					<p class="p_principio2">Temos sede por aprendizado e não nos conformamos com a realidade estagnada. Nós agimos para promover mudança!</p>
-				</li>
-				<li>	
+				</div>
+				<div>	
 					<div class="principio3"></div>
 					<p class="p_principio3">Encaramos os desafios como novas oportunidades e nosmotivamos por meios deles a alcançar melhores resultados.</p>
 					<div class="principio4"></div>
 					<p class="p_principio4">Prezamos pelo crescimento e integridade da AD&M e nos sentimos responsáveis pelos resultados de nossa empresa.</p>
-				</li>
-				<li>
+				</div>
+				<div>
 					<div class="principio5"></div>
 					<p class="p_principio4">Prezamos pelo crescimento e integridade da AD&M e nos sentimos responsáveis pelos resultados de nossa empresa.</p>
 					<div class="principio6"></div>
 					<p class="p_principio4">Prezamos pelo crescimento e integridade da AD&M e nos sentimos responsáveis pelos resultados de nossa empresa.</p>
 					
-				</li>
-				<li>
+				</div>
+				<div>
 					<div class="principio7"></div>
 					<p class="p_principio4">Prezamos pelo crescimento e integridade da AD&M e nos sentimos responsáveis pelos resultados de nossa empresa.</p>
-				</li>
-			</ul>
+				</div>
 			</div>
 		</div>
 
 	</div>
 </section>
 
-<section class="solucao" data-anchor-content="solucoes">
+<section id="solucoes" class="solucao">
 	<div class="wrapper">
 		<h1>CONHEÇA NOSSAS SOLUÇÕES</h1>
 		<p>Solucionamos problemas de gestão empresarial de forma personalizada, em diversas áreas. Conheça nossas soluções e agende um atendimento com nossos Analistas de Negócios para oferecermos a melhor solução para seu negócio.</p>
@@ -241,40 +239,46 @@
 	</div>
 </section>
 
-<section class="fale_conosco" data-anchor-content="contato">
+<section class="fale_conosco" id="contato">
 	<div class="wrapper">
 		<h1>FALE CONOSCO</h1>
-		<p>Agende seu atendimento com nossos Analistas de Negócios,
-		para podermos oferecer-lhe o melhor das nossas soluções.</p>
-		
-		<%= form_for Message.new do |f| %>
+    <p>Agende seu atendimento com nossos Analistas de Negócios,
+    para podermos oferecer-lhe o melhor das nossas soluções.</p>
+    
+    <ul class="flex-container">
+      <li>
+    		<%= form_for Message.new do |f| %>
 
-  			<div class="formulario">
-  			  <%= f.text_field :name, placeholder:"Nome" %>
-  			</div>
+      			<div class="formulario">
+      			  <%= f.text_field :name, placeholder:"Nome" %>
+      			</div>
 
-  			<div class="formulario">
-  			  <%= f.email_field :email, placeholder:"Email" %>
-  			</div>
+      			<div class="formulario">
+      			  <%= f.email_field :email, placeholder:"Email" %>
+      			</div>
 
-  			<div class="formulario">
-  			  <%= f.text_field :phone, placeholder:"Telefone" %>
-  			</div>
+      			<div class="formulario">
+      			  <%= f.text_field :phone, placeholder:"Telefone" %>
+      			</div>
 
-  			<div class="formulario">
-  			  <%= f.text_field :company_name, placeholder:"Nome da Empresa" %>
-  			</div>
+      			<div class="formulario">
+      			  <%= f.text_field :company_name, placeholder:"Nome da Empresa" %>
+      			</div>
 
-  			<div class="formulario">
-  			  <%= f.text_area :content,placeholder:"Como podemos ajudar?" %>
-  			</div>
+      			<div class="formulario">
+      			  <%= f.text_area :content,placeholder:"Como podemos ajudar?" %>
+      			</div>
 
-  			<div class="envio">
-  			  <%= f.submit 'Enviar', class: 'button' %>
-  			</div>
-		<% end %>
-  		<div id="map">
-  		</div>
+      			<div class="envio">
+      			  <%= f.submit 'Enviar', class: 'button' %>
+      			</div>
+    		<% end %>
+        
+      </li>
+      <li>
+      	<div id="map"></div>
+      </li>
+    </ul>
 	</div>
 </section>
 

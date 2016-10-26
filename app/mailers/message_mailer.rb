@@ -1,10 +1,10 @@
 class MessageMailer < ApplicationMailer
-	default from: "Your Mailer <noreply@yourdomain.com>"
-  	default to: "Your Name <your.email@yourdomain.com>"
 
-  	def new_message(message)
-    	@message = message
-    
-    	mail subject: "Message from #{message.name}"
-  	end
+	default :to => "stephen@example.com"
+  def message_me(msg)
+    @msg = msg
+
+    mail from: @msg.email, subject: @msg.subject, body: @msg.content
+  end
+
 end

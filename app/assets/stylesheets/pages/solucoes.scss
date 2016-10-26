@@ -25,20 +25,28 @@
 			margin-bottom: 30px;
 		}
 
+    .flex-container {
+        /* We first create a flex layout context */
+        display: flex;
+  
+        /* Then we define the flow direction and if we allow the items to wrap 
+         * Remember this is the same as:
+         * flex-direction: row;
+         * flex-wrap: wrap;
+         */
+        flex-flow: row wrap;
+  
+        /* Then we define how is distributed the remaining space */
+        justify-content: space-around;
+    }
+
 	.Financas{
 		background-color: #FFF;
 		height: 240px;
         width: 400px;
         margin: 10px;
-        margin-left: 50px;
         display: inline-table;
         margin-top: 30px;
-
-        @media(max-width: 1001px){
-                margin-left: 50px;
-                width: 600px;
-                height: 400px;
-            }
 
         .financas__img{
         	background-image: image-url("servicos_imagens/servicos_financas.png");
@@ -46,10 +54,6 @@
         	background-repeat: no-repeat;
         	height: 240px;
         	width: 400px;
-                @media(max-width: 1001px){
-                width: 600px;
-                height: 400px;
-            }
         }
 	}
 	.Marketing{
@@ -57,12 +61,8 @@
 		height: 240px;
         width: 400px;
         margin: 10px;
+        margin-top: 30px;
         display: inline-table;
-        @media(max-width: 1001px){
-                margin-left: 50px;
-                width: 600px;
-                height: 400px;
-            }
 
         .marketing__img{
         	background-image: image-url("servicos_imagens/servicos_marketing.png");
@@ -70,10 +70,6 @@
         	background-repeat: no-repeat;
         	height: 240px;
         	width: 400px;
-                @media(max-width: 1001px){
-                width: 600px;
-                height: 400px;
-            }
         }
         li:last-child{
         	margin-bottom: 152px;
@@ -85,12 +81,8 @@
 		height: 240px;
         width: 400px;
         margin: 10px;
+        margin-top: 30px;
         display: inline-table;
-        @media(max-width: 1001px){
-                margin-left: 50px;
-                width: 600px;
-                height: 400px;
-            }
 
         .gestao_pessoas__img{
         	background-image: image-url("servicos_imagens/servicos_gestao_pessoas.png");
@@ -98,10 +90,6 @@
         	background-repeat: no-repeat;
         	height: 240px;
         	width: 400px;
-                @media(max-width: 1001px){
-                width: 600px;
-                height: 400px;
-            }
         }
         li:last-child{
         	margin-bottom: 107px;
@@ -113,13 +101,8 @@
 		height: 240px;
         width: 400px;
         margin: 10px;
-        margin-left: 50px;
+        margin-top: 30px;
         display: inline-table;
-        @media(max-width: 1001px){
-                margin-left: 50px;
-                width: 600px;
-                height: 400px;
-            }
 
         .organizacao__img{
         	background-image: image-url("servicos_imagens/servicos_organizacao.png");
@@ -127,10 +110,6 @@
         	background-repeat: no-repeat;
         	height: 240px;
         	width: 400px;
-                @media(max-width: 1001px){
-                width: 600px;
-                height: 400px;
-            }
         }
 	}
 }

@@ -1,14 +1,14 @@
 <nav class="menu">
 	<div class="wrapper">
-		<div class="brand-logo"></div>
+		<%= link_to "", home_index_path, id: "index", class: "brand-logo" %>
 		<li>
 			<a data-anchor="blog" href="https://medium.com/@ADMconsultoria" class="menu-item">Blog</a>
 		</li>
 		<li>
-			<a data-anchor="contato" href="" class="menu-item">Fale Conosco</a>
+			<a data-anchor="contato" href="#" class="menu-item">Fale Conosco</a>
 		</li>
 		<li>
-			<a data-anchor="solucoes" href="" class="menu-item">Serviços</a>
+			<a data-anchor="solucoes" href="#" class="menu-item">Soluções</a>
 		</li>
 	</div>
 </nav>
@@ -27,68 +27,85 @@
 
 <section class="solucoes">
 	<div class="wrapper">
-	
-		<div class="Financas">
-			<h2>FINANÇAS</h2>
-			<div class="financas__img"></div>
-			<p>Focado planejamento, controle e análises dos dados financeiros a fim de
-			oferecer suporte à tomada de decisão.</p>
-			<ul>
-				<li>— Controle financeiro</li>
-				<li>— Controle e Análise financeira</li>
-				<li>— Orçamento</li>
-				<li>— Controle de estoques</li>
-				<li>— Gestão de estoques</li>
-				<li>— Valuation – Avaliação de Empresas</li>
-				<li>— Capital de giro</li>
-				<li>— Custeio</li>
-				<li>— Precificação</li>
-				<li>— Análise e planejamento financeiro</li>
-				<li>— Viabilidade econômico-financeira</li>
-			</ul>
-		</div>
-		<div class="Gestao_Pessoas">
-			<h2>GESTÃO DE PESSOAS</h2>
-			<div class="gestao_pessoas__img"></div>
-			<p>Área responsável pela captação, seleção, aprendizado, organização e retenção de talentos da empresa</p>
-			<ul>
-				<li>— Descrição de Cargos</li>
-				<li>— Manual de Normas e Condutas</li>
-				<li>— Programa de Socialização</li>
-				<li>— Plano de Treinamento</li>
-				<li>— Avaliação de Desempenho</li>
-				<li>— Reconhecimento e Incentivo</li>
-				<li>— Remuneração Variável</li>
-				<li>— Gestão do Clima Organizacional</li>
-				<li>— Recrutamento e Seleção</li>
-			</ul>
-		</div>
-		<div class="Organizacao">
-			<h2>ORGANIZAÇÃO E PROCESSOS</h2>
-			<div class="organizacao__img"></div>
-			<p>Área responsável por administrar os processos, estrutura, estratégia e qualidade da empresa.</p>
-			<ul>
-				<li>— Mapeamento e Redesenho de Processos</li>
-				<li>— Modelagem de Processos</li>
-				<li>— Mapeamento e Redesenho da Estrutura Organizacional</li>
-				<li>— Modelagem da Estrutura Organizacional</li>
-				<li>— Planejamento Estratégico</li>
-				<li>— Mapa de Relacionamento</li>
-				<li>— Gestão da Qualidade</li>
-			</ul>
-		</div>
-		<div class="Marketing">
-			<h2>MARKETING</h2>
-			<div class="marketing__img"></div>
-			<p>Área responsável pelo entendimento das variáveis externas, bem como pela captação e retenção de clientes.</p>
-			<ul>
-				<li>— Plano de Marketing</li>
-				<li>— Plano de Negócios</li>
-				<li>— Pesquisa de Mercado</li>
-				<li>— Geomarketing</li>
-				<li>— Viabilidade Mercadológica</li>
-			</ul>
-		</div>
+
+		<ul class="flex-container">
+			<li>
+				<div class="Financas">
+					<h2>FINANÇAS</h2>
+					<div class="financas__img"></div>
+					<p>Focado planejamento, controle e análises dos dados financeiros a fim de
+					oferecer suporte à tomada de decisão.</p>
+					<ul>
+						<li>— Controle financeiro</li>
+						<li>— Controle e Análise financeira</li>
+						<li>— Orçamento</li>
+						<li>— Controle de estoques</li>
+						<li>— Gestão de estoques</li>
+						<li>— Valuation – Avaliação de Empresas</li>
+						<li>— Capital de giro</li>
+						<li>— Custeio</li>
+						<li>— Precificação</li>
+						<li>— Análise e planejamento financeiro</li>
+						<li>— Viabilidade econômico-financeira</li>
+					</ul>
+				</div>
+				
+			</li>
+			
+			<li>
+					<div class="Gestao_Pessoas">
+						<h2>GESTÃO DE PESSOAS</h2>
+						<div class="gestao_pessoas__img"></div>
+						<p>Área responsável pela captação, seleção, aprendizado, organização e retenção de talentos da empresa</p>
+						<ul>
+							<li>— Descrição de Cargos</li>
+							<li>— Manual de Normas e Condutas</li>
+							<li>— Programa de Socialização</li>
+							<li>— Plano de Treinamento</li>
+							<li>— Avaliação de Desempenho</li>
+							<li>— Reconhecimento e Incentivo</li>
+							<li>— Remuneração Variável</li>
+							<li>— Gestão do Clima Organizacional</li>
+							<li>— Recrutamento e Seleção</li>
+						</ul>
+					</div>
+				
+			</li>
+			
+			<li>
+				<div class="Organizacao">
+					<h2>ORGANIZAÇÃO E PROCESSOS</h2>
+					<div class="organizacao__img"></div>
+					<p>Área responsável por administrar os processos, estrutura, estratégia e qualidade da empresa.</p>
+					<ul>
+						<li>— Mapeamento e Redesenho de Processos</li>
+						<li>— Modelagem de Processos</li>
+						<li>— Mapeamento e Redesenho da Estrutura Organizacional</li>
+						<li>— Modelagem da Estrutura Organizacional</li>
+						<li>— Planejamento Estratégico</li>
+						<li>— Mapa de Relacionamento</li>
+						<li>— Gestão da Qualidade</li>
+					</ul>
+				</div>
+				
+			</li>
+			
+			<li>
+				<div class="Marketing">
+					<h2>MARKETING</h2>
+					<div class="marketing__img"></div>
+					<p>Área responsável pelo entendimento das variáveis externas, bem como pela captação e retenção de clientes.</p>
+					<ul>
+						<li>— Plano de Marketing</li>
+						<li>— Plano de Negócios</li>
+						<li>— Pesquisa de Mercado</li>
+						<li>— Geomarketing</li>
+						<li>— Viabilidade Mercadológica</li>
+					</ul>
+				</div>
+				
+			</li>
+		</ul>
 	</div>
 </section>
 

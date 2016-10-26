@@ -11,14 +11,30 @@
 		font-size: 24px;
 	}
 
+  .flex-container {
+        /* We first create a flex layout context */
+        display: flex;
+  
+        /* Then we define the flow direction and if we allow the items to wrap 
+         * Remember this is the same as:
+         * flex-direction: row;
+         * flex-wrap: wrap;
+         */
+        flex-flow: row wrap;
+  
+        /* Then we define how is distributed the remaining space */
+        justify-content: space-around;
+    }
+
 	form{
 		color: #FFF;
-  	width: 45%;
     display: inline-block;
     border-style: none;
+    width: 480px;
 
     @media(max-width: 1001px){
       display: block;
+      width: 100%;
     }
 
   		.formulario{
@@ -29,6 +45,7 @@
       		margin-top: 2%;
       		width: 100%;
           padding: 10px;
+          font-family: 'Source Sans Pro';
     		}
     	 textarea {
     		  border-radius: 5px;
@@ -38,6 +55,7 @@
       		width: 100%;
     		  resize: none;
     		  height: 195px;
+          font-family: 'Source Sans Pro';
 			   }
       }
       .envio{
@@ -59,11 +77,12 @@
     }
   #map {
     margin: 10px;
-    height: 500px;
-    width: 450px;
+    height: 540px;
+    width: 480px;
     display: inline-block;
     @media(max-width: 1001px){
       display: block;
+      width: 100%;
     }
 
 

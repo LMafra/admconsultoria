@@ -1,5 +1,5 @@
 var carousel;
-$(document).ready(function () {
+$(document).on('page:change', function() {
     carousel = $(".ul-principios");
     carousel.itemslide();
 });

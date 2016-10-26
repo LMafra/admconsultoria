@@ -12,6 +12,21 @@
 		font-size: 24px;
 	}
 
+    .flex-container {
+        /* We first create a flex layout context */
+        display: flex;
+  
+        /* Then we define the flow direction and if we allow the items to wrap 
+         * Remember this is the same as:
+         * flex-direction: row;
+         * flex-wrap: wrap;
+         */
+        flex-flow: row wrap;
+  
+        /* Then we define how is distributed the remaining space */
+        justify-content: space-around;
+    }
+
 
     .financas{
 
@@ -21,13 +36,17 @@
         height: 240px;
         width: 400px;
         margin: 10px;
-        margin-left: 50px;
         display: inline-table;
         opacity: 1;
         transition: .5s ease-in-out;
         position: relative;
 
          @media(max-width: 1001px){
+                margin-left: 50px;
+                width: 600px;
+                height: 400px;
+            }
+         @media(min-width: 1700px){
                 margin-left: 50px;
                 width: 600px;
                 height: 400px;
@@ -83,6 +102,11 @@
                 width: 600px;
                 height: 400px;
             }
+         @media(min-width: 1700px){
+                margin-left: 50px;
+                width: 600px;
+                height: 400px;
+            }
 
 
 
@@ -123,11 +147,15 @@
         height: 240px;
         width: 400px;
         margin: 10px;
-        margin-left: 50px;
         display: inline-table;
         opacity: 1;
         transition: .5s ease-in-out;
-        @media(max-width: 1001px){
+         @media(max-width: 1001px){
+                margin-left: 50px;
+                width: 600px;
+                height: 400px;
+            }
+         @media(min-width: 1700px){
                 margin-left: 50px;
                 width: 600px;
                 height: 400px;
@@ -174,7 +202,12 @@
         display: inline-table;
         opacity: 1;
         transition: .5s ease-in-out;
-         @media(max-width: 1001px){
+          @media(max-width: 1001px){
+                margin-left: 50px;
+                width: 600px;
+                height: 400px;
+            }
+         @media(min-width: 1700px){
                 margin-left: 50px;
                 width: 600px;
                 height: 400px;
@@ -216,7 +249,7 @@
                     border-radius: 5px;
                     margin: 0 auto;
                     margin-left: 30px;
-                    margin-right: 135px;
+                    margin-right: 50px;
                     padding-top: 6px;
                     width: 100px;
                     height: 30px;
