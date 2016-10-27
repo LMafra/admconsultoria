@@ -4,8 +4,7 @@ Rails.application.routes.draw do
  
   root 'home#index'
 
-  resources :messages, only: [:new, :create]
-
+  resources :contact_forms
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 	get 'pages/solucoes' => 'high_voltage/pages#show', id: 'solucoes'

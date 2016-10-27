@@ -247,32 +247,32 @@
     
     <ul class="flex-container">
       <li>
-    		<%= form_for Message.new do |f| %>
+      <%= simple_form_for @contact_form , remote: true do |f| %>
 
-      			<div class="formulario">
-      			  <%= f.text_field :name, placeholder:"Nome" %>
-      			</div>
+            <div class="formulario">
+              <%= f.text_field :name, placeholder:"Nome" %>
+            </div>
 
-      			<div class="formulario">
-      			  <%= f.email_field :email, placeholder:"Email" %>
-      			</div>
+            <div class="formulario">
+              <%= f.email_field :email, placeholder:"Email" %>
+            </div>
 
-      			<div class="formulario">
-      			  <%= f.text_field :phone, placeholder:"Telefone" %>
-      			</div>
+            <div class="formulario">
+              <%= f.text_field :phone, placeholder:"Telefone" %>
+            </div>
 
-      			<div class="formulario">
-      			  <%= f.text_field :company_name, placeholder:"Nome da Empresa" %>
-      			</div>
+            <div class="formulario">
+              <%= f.text_field :company_name, placeholder:"Nome da Empresa" %>
+            </div>
 
-      			<div class="formulario">
-      			  <%= f.text_area :content,placeholder:"Como podemos ajudar?" %>
-      			</div>
+            <div class="formulario">
+              <%= f.text_area :message,placeholder:"Como podemos ajudar?" %>
+            </div>
 
-      			<div class="envio">
-      			  <%= f.submit 'Enviar', class: 'button' %>
-      			</div>
-    		<% end %>
+            <div class="envio">
+              <%= f.submit 'Enviar', class: 'button' %>
+            </div>
+        <% end %>
         
       </li>
       <li>
