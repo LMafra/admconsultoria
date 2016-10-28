@@ -14,6 +14,4 @@
 //= require jquery_ujs
 //= require_tree
 //= require underscore
-//= require components/menu
-//= require components/carousel
-//= require gmaps/google
+//= require menu
