@@ -32,10 +32,6 @@
     border-style: none;
     width: 480px;
 
-    @media(max-width: 1001px){
-      display: block;
-      width: 100%;
-    }
 
   		.formulario{
 		    input{
@@ -80,11 +76,6 @@
     height: 540px;
     width: 480px;
     display: inline-block;
-    @media(max-width: 1001px){
-      display: block;
-      width: 100%;
-    }
-
 
   }
 
