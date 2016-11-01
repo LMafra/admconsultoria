@@ -4,7 +4,7 @@
   height: 54px;
   width: 100%;
 
-  @media(max-width: 520px) {
+  @media(min-width: 520px) {
     display: none;
   }
   .menu-item {
