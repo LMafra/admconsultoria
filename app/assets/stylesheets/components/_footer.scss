@@ -1,6 +1,5 @@
 .page-footer{
   background-color: #00444F;
-  height: 150px;
     .flex-container {
           /* We first create a flex layout context */
           display: flex;
@@ -25,8 +24,13 @@
 
   .footer-place{
     display: inline-block;
-    width: 300px;
-    margin-right: 50px;
+    width: 275px;
+    margin-right: 100px;
+
+    @media screen and(max-width: 1001px) {
+      width: 275px;
+      margin-right: 50px;
+    }
 
   }
 
@@ -34,6 +38,9 @@
     display: inline-block;
     width: 300px;
     margin: 10px;
+    @media screen and(max-width: 1001px) {
+      width: 200px;
+    }
 
   }
 
@@ -43,9 +50,8 @@
 		background-image: image-url("AD&M_footer_logo-13.svg");
   	background-repeat: no-repeat;
   	padding: 50px;
-    padding-bottom: 0px;
     display: inline-block;
-    margin-right: 50px;
+    margin-right: 100px;
     vertical-align: bottom;
     margin-top: 55px;
 	}
