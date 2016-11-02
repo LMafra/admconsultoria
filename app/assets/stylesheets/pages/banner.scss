@@ -1,11 +1,10 @@
 .banner{
 	background-image: image-url("AD&M_abertura_favicon/AD&M_abertura_diagonais-37.png");
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
-	height: calc(100vh);
+	height: 900px;
 
 	@media screen and(max-width: 1001px) {
-		height: calc(50vw);
 		background-size: 100%;
 	}
 }
