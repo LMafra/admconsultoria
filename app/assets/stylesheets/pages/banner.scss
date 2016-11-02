@@ -1,9 +1,8 @@
 .banner{
 	background-image: image-url("AD&M_abertura_favicon/AD&M_abertura_diagonais-37.png");
-	background-size: cover;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	height: calc(100vh);
-	background-position: center;
 
 	@media screen and(max-width: 1001px) {
 		height: calc(50vw);
