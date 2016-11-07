@@ -5,10 +5,7 @@
 			<a data-anchor="blog" href="https://medium.com/@ADMconsultoria" class="menu-item">Blog</a>
 		</li>
 		<li>
-			<a data-anchor="contato" href="#" class="menu-item">Fale Conosco</a>
-		</li>
-		<li>
-			<a data-anchor="solucoes" href="#" class="menu-item">Soluções</a>
+			<%= link_to "Fale Conosco", home_index_path, id: "index", class: "menu-item" %>
 		</li>
 	</div>
 </nav>
@@ -33,7 +30,7 @@
 				<div class="Financas">
 					<h2>FINANÇAS</h2>
 					<div class="financas__img"></div>
-					<p>Focado planejamento, controle e análises dos dados financeiros a fim de
+					<p>Focado no planejamento, controle e análises dos dados financeiros a fim de
 					oferecer suporte à tomada de decisão.</p>
 					<ul>
 						<li>— Controle financeiro</li>
@@ -111,12 +108,16 @@
 
 <footer class="page-footer">
 	<div class="wrapper">
-		<div class="logo-footer"></div>
-		<a href=""><div class="twitter"></div></a>
-		<a href=""><div class="medium"></div></a>
-		<a href=""><div class="facebook"></div></a>
-		<p>99238-9123/ 98625-4773     contato@admconsultoria.com.br</p>
-		<p>Faculdade de Administração, Contabilidade e Economia (FACE) - Campus Universitário Darcy Ribeiro, s/n. Sala DT 09/29 - Asa Norte. Brasília DF</p>
+		  <div class="logo-footer"></div>
+      <div class="footer-place">
+		    <p>Faculdade de Administração, Contabilidade e Economia (FACE) - Campus Universitário Darcy Ribeiro, s/n. Sala DT 09/29 - Asa Norte. Brasília DF</p>
+      </div>
+      <div class="footer-contact">
+        <p>99238-9123/ 98625-4773     contato@admconsultoria.com.br</p>
+        <a href=""><div class="facebook"></div></a>
+        <a href=""><div class="twitter"></div></a>
+        <a href=""><div class="medium"></div></a>
+      </div>
 	</div>
 	
 </footer>

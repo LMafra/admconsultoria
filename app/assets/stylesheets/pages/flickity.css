@@ -105,12 +105,12 @@ http://flickity.metafizzy.co
 .flickity-page-dots {
   position: absolute;
   width: 100%;
-  bottom: -25px;
   padding: 0;
   margin: 0;
   list-style: none;
   text-align: center;
   line-height: 1;
+  margin-top: -30px;
 }
 
 .flickity-rtl .flickity-page-dots { direction: rtl; }
