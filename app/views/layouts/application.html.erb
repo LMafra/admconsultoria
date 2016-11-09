@@ -7,32 +7,17 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     
-	  
+    <%= favicon_link_tag 'favicon.ico' %>
+      
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEg8DZxSN9fUWGHAITYiZcnzprTudCkNs&callback=initMap"
         async defer></script>
-	  
+      
     <link href="//db.onlinewebfonts.com/c/ea0517f0c20dfd81ffa9363950561257?family=FlexoW01-Regular" rel="stylesheet" type="text/css"/>
     <link href="//db.onlinewebfonts.com/c/84774c4a3a6ad34965bf749fbe288ab0?family=FlexoW01-Medium" rel="stylesheet" type="text/css"/>
     <link href="//db.onlinewebfonts.com/c/ec64cbf5e8b2e9e28bce3879c6812a1e?family=FlexoW01-Bold" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300" rel="stylesheet"> 
 
-    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/faviconandroid-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+
   </head>
   <body>
     <%= yield %>
