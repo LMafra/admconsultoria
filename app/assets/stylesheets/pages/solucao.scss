@@ -294,8 +294,6 @@
                     background-color: #06E195;
                     border: 0;
                     border-radius: 5px;
-                    margin: 0 auto;
-                    margin-left: 30px;
                     margin-right: 50px;
                     width: 100px;
                     height: 30px;
@@ -304,9 +302,9 @@
                     color: #FFF;
                     text-decoration: none;
                     cursor: pointer;
-                    display: block;
                     text-align: center;
                     float: right;
+                    padding-top: 5px;
                     @media(max-width: 1001px){
                         margin-right: 73px;
                     }

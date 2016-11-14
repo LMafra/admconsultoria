@@ -21,22 +21,29 @@
     font-family: 'FlexoW01-Medium';
     line-height: 27px;
   }
+  a{
+    color:  #FFF;
+    font-size: 15px;
+    font-family: 'FlexoW01-Medium';
+    line-height: 27px;
+    text-decoration: none;
+  }
 
   .footer-place{
     display: inline-block;
     width: 275px;
-    margin-right: 100px;
+    margin-right: 30px;
 
     @media screen and(max-width: 1001px) {
       width: 275px;
-      margin-right: 50px;
+      margin-right: 10px;
     }
 
   }
 
   .footer-contact{
     display: inline-block;
-    width: 300px;
+    width: 230px;
     margin: 10px;
     @media screen and(max-width: 1001px) {
       width: 200px;
@@ -45,13 +52,24 @@
   }
 
 
+  .footer-creator{
+      display: inline-block;
+      width: 250px;
+      margin: 10px;
+      vertical-align: 50%;
+      @media screen and(max-width: 1001px) {
+        width: 275px;
+      }
+  
+    }
+
 
 	.logo-footer{
 		background-image: image-url("AD&M_footer_logo-13.svg");
   	background-repeat: no-repeat;
   	padding: 50px;
     display: inline-block;
-    margin-right: 100px;
+    margin-right: 50px;
     vertical-align: bottom;
     margin-top: 55px;
     @media screen and(max-width: 1001px) {
