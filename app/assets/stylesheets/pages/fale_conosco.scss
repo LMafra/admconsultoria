@@ -33,7 +33,7 @@
     width: 480px;
 
     @media (max-width: 1001px){
-      width: 500px;
+      width: 800px;
     }
 
 
@@ -47,6 +47,9 @@
       		width: 100%;
           padding: 10px;
           font-family: 'Source Sans Pro';
+          @media (max-width: 1001px){
+            font-size: 40px;
+          }
     		}
     	 textarea {
     		  border-radius: 5px;
@@ -57,6 +60,9 @@
     		  resize: none;
     		  height: 195px;
           font-family: 'Source Sans Pro';
+          @media (max-width: 1001px){
+            font-size: 40px;
+          }
 			   }
       }
       .envio{
@@ -71,6 +77,9 @@
           margin: 0 auto;
           width: 100%;
           padding: 20px;
+          @media (max-width: 1001px){
+            font-size: 40px;
+          }
       
         }
       }
@@ -81,6 +90,9 @@
     height: 540px;
     width: 480px;
     display: inline-block;
+    @media (max-width: 1001px){
+      width: 800px;
+    }
 
   }
 
