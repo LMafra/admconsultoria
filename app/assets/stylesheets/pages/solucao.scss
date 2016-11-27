@@ -295,8 +295,6 @@
                     border: 0;
                     border-radius: 5px;
                     margin-right: 50px;
-                    width: 100px;
-                    height: 30px;
                     font-family: 'FlexoW01-Medium';
                     font-size: 15px;
                     color: #FFF;
@@ -304,7 +302,7 @@
                     cursor: pointer;
                     text-align: center;
                     float: right;
-                    padding-top: 5px;
+                    padding: 10px;
                     @media(max-width: 1001px){
                         margin-right: 73px;
                     }
